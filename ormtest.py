@@ -13,7 +13,7 @@ api = Api(app)
 
 app.config[
     'SQLALCHEMY_DATABASE_URI'] = \
-    "mysql://root:123456@10.200.142.50:3333/test?charset=utf8"
+    "mysql://root:xxxx@10.xxx.xxxx:xx/test?charset=utf8"
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 
